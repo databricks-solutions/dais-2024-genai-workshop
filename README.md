@@ -69,7 +69,7 @@ Next, we index the source Delta table we created earlier. We can do this in Pyth
 
 ##### Python
 
-````python
+```python
 i = vsc.create_delta_sync_index_and_wait(
     endpoint_name=VS_ENDPOINT_NAME,
     index_name=VS_INDEX_FULLNAME,
