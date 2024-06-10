@@ -80,6 +80,7 @@ i = vsc.create_delta_sync_index_and_wait(
     embedding_model_endpoint_name="databricks-bge-large-en"
 )
 ```
+
 For more details on what these specific arguments mean, see the documentation on [how to create and query a Vector Search index](https://docs.databricks.com/en/generative-ai/create-query-vector-search.html).
 
 ##### UI
